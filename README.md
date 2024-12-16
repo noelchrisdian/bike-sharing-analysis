@@ -1,12 +1,10 @@
-SETUP ENVIRONTMENT
-python create --name main-ds python=3.9
-python activate main-ds
-pip install pandas matplotlib seaborn streamlit
+# Dashboard Analysis of an E-Commerce Public Dataset | Dicoding Submission
 
-RUN STREAMLIT 
+## Installation :
 
-Jika module streamlit di dalam PATH :
-streamlit run Dashboard.py
+Follow these steps to set up and run the application locally :
 
-Jika module streamlit di luar PATH :
-python -m streamlit run Dashboard.py
+1. Clone the repository : https://github.com/noelchrisdianjaya/ecommerce-dashboard-analysis.git
+2. Navigate to the project directory : `cd ecommerce-dashboard-analysis` 
+3. Install the necessary dependencies : `pip install -r requirements.txt`
+4. Run the Streamlit application : `streamlit run Dashboard.py`
